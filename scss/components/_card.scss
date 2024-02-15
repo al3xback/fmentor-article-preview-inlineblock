@@ -60,12 +60,6 @@
 	font-size: 0;
 }
 
-.card__author::after {
-	content: '';
-	display: table;
-	clear: both;
-}
-
 .card__author > * {
 	display: inline-block;
 	vertical-align: middle;
@@ -112,14 +106,6 @@
 	background-color: transparent;
 	text-align: right;
 	transition: all 0.24s;
-}
-
-.card__share-box::after,
-.card__share-action::after,
-.card__share-action-buttons::after {
-	content: '';
-	display: table;
-	clear: both;
 }
 
 .card__share-action {
